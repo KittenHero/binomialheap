@@ -1,19 +1,21 @@
 # Binomial Queue
 is a generic heap data structure with fast theoretical runtime.
 
-Constructor:
+## Constructor:
+
 + BinomialQueue<K, V>(int initialCapacity)
   - O(1)
 + BinomialQueue<K, V>()
   - O(1)
   - initial capacity = 63
-Class methods:
+
+## Class methods:
+
 + boolean add(K key, V value)
   - adds a key value pair to the heap
   - keys are not unique
   - returns true on success
   - O(1)
-
 + K getMinKey()
   - O(1)
 + V getMinValue()
